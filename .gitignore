@@ -1,0 +1,26 @@
+# Large attention tensors — regenerate by running the pipeline
+results/**/attn_at_query.npy
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs
+*.log
+
+# Editor state
+.DS_Store
+.vscode/
+.idea/
+
+# Local paper artifacts (kept out of the public repo)
+*.tex
+*.pdf
+!figures/*.pdf
+*.aux
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz

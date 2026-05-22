@@ -1,0 +1,261 @@
+{
+  "tag": "pythia_1b",
+  "baseline_absJ": {
+    "4": {
+      "purity": 0.5777777777777777,
+      "nmi": 0.27746777789085497,
+      "ari": 0.16402148699792454
+    },
+    "6": {
+      "purity": 0.6222222222222222,
+      "nmi": 0.4130152724513923,
+      "ari": 0.20200306695051873
+    },
+    "8": {
+      "purity": 0.5333333333333333,
+      "nmi": 0.2901667272925676,
+      "ari": 0.03509808238598225
+    },
+    "10": {
+      "purity": 0.6,
+      "nmi": 0.34264229288920517,
+      "ari": 0.10724657174124365
+    },
+    "12": {
+      "purity": 0.6666666666666666,
+      "nmi": 0.4034896328412497,
+      "ari": 0.14509919675436006
+    }
+  },
+  "strategy_c_block_residual": {
+    "4": {
+      "purity": 0.4888888888888889,
+      "nmi": 0.2806639543730485,
+      "ari": 0.13851908900869184,
+      "composition": {
+        "0": {
+          "first-token": 7,
+          "induction": 2,
+          "self": 2,
+          "unclassified": 3
+        },
+        "1": {
+          "unclassified": 2
+        },
+        "2": {
+          "first-token": 8,
+          "previous-token": 10,
+          "unclassified": 1
+        },
+        "3": {
+          "duplicate-token": 1,
+          "first-token": 2,
+          "previous-token": 3,
+          "self": 1,
+          "unclassified": 3
+        }
+      }
+    },
+    "6": {
+      "purity": 0.5555555555555556,
+      "nmi": 0.27744471873247184,
+      "ari": 0.1069832478819949,
+      "composition": {
+        "0": {
+          "duplicate-token": 1,
+          "first-token": 5,
+          "induction": 1,
+          "previous-token": 1,
+          "self": 2,
+          "unclassified": 4
+        },
+        "1": {
+          "first-token": 3,
+          "induction": 1,
+          "unclassified": 1
+        },
+        "2": {
+          "unclassified": 2
+        },
+        "3": {
+          "first-token": 3
+        },
+        "4": {
+          "first-token": 5,
+          "previous-token": 10,
+          "unclassified": 1
+        },
+        "5": {
+          "first-token": 1,
+          "previous-token": 2,
+          "self": 1,
+          "unclassified": 1
+        }
+      }
+    },
+    "8": {
+      "purity": 0.6,
+      "nmi": 0.2907675449688511,
+      "ari": 0.12106924908946567,
+      "composition": {
+        "0": {
+          "unclassified": 1
+        },
+        "1": {
+          "first-token": 6,
+          "previous-token": 1,
+          "self": 1,
+          "unclassified": 1
+        },
+        "2": {
+          "first-token": 1,
+          "previous-token": 2,
+          "self": 1,
+          "unclassified": 4
+        },
+        "3": {
+          "first-token": 2,
+          "previous-token": 8,
+          "unclassified": 1
+        },
+        "4": {
+          "first-token": 1,
+          "induction": 1
+        },
+        "5": {
+          "duplicate-token": 1,
+          "first-token": 3,
+          "previous-token": 2
+        },
+        "6": {
+          "first-token": 4,
+          "induction": 1,
+          "self": 1,
+          "unclassified": 2
+        }
+      }
+    },
+    "10": {
+      "purity": 0.5555555555555556,
+      "nmi": 0.2819179011399563,
+      "ari": 0.019898717624490348,
+      "composition": {
+        "0": {
+          "first-token": 2,
+          "previous-token": 5
+        },
+        "1": {
+          "duplicate-token": 1,
+          "first-token": 4,
+          "previous-token": 3,
+          "self": 1,
+          "unclassified": 1
+        },
+        "2": {
+          "first-token": 3,
+          "previous-token": 5,
+          "self": 1,
+          "unclassified": 3
+        },
+        "3": {
+          "first-token": 2
+        },
+        "4": {
+          "unclassified": 1
+        },
+        "6": {
+          "first-token": 1,
+          "induction": 1
+        },
+        "7": {
+          "first-token": 3,
+          "induction": 1,
+          "unclassified": 1
+        },
+        "8": {
+          "unclassified": 2
+        },
+        "9": {
+          "first-token": 2,
+          "self": 1,
+          "unclassified": 1
+        }
+      }
+    },
+    "12": {
+      "purity": 0.5777777777777777,
+      "nmi": 0.2827452887177216,
+      "ari": 0.02830607634531096,
+      "composition": {
+        "0": {
+          "first-token": 3,
+          "induction": 1,
+          "self": 1,
+          "unclassified": 2
+        },
+        "1": {
+          "first-token": 2,
+          "previous-token": 1,
+          "self": 1,
+          "unclassified": 1
+        },
+        "2": {
+          "first-token": 3
+        },
+        "4": {
+          "duplicate-token": 1,
+          "first-token": 1,
+          "previous-token": 3,
+          "unclassified": 1
+        },
+        "5": {
+          "first-token": 3
+        },
+        "6": {
+          "first-token": 1,
+          "previous-token": 6,
+          "self": 1,
+          "unclassified": 3
+        },
+        "7": {
+          "first-token": 1
+        },
+        "8": {
+          "first-token": 1,
+          "induction": 1
+        },
+        "9": {
+          "unclassified": 1
+        },
+        "10": {
+          "first-token": 2,
+          "previous-token": 3,
+          "unclassified": 1
+        }
+      }
+    }
+  },
+  "strategy_d_within_layer": {
+    "kpl_2": {
+      "k_per_layer": 2,
+      "total_clusters": 20,
+      "purity": 0.7777777777777778,
+      "nmi": 0.5022907080855679,
+      "ari": 0.07725385638001589
+    },
+    "kpl_3": {
+      "k_per_layer": 3,
+      "total_clusters": 26,
+      "purity": 0.8444444444444444,
+      "nmi": 0.5278459851404965,
+      "ari": 0.06247159004818328
+    },
+    "kpl_4": {
+      "k_per_layer": 4,
+      "total_clusters": 31,
+      "purity": 0.8666666666666667,
+      "nmi": 0.524742414818272,
+      "ari": 0.033351785220038746
+    }
+  }
+}

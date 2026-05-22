@@ -1,0 +1,160 @@
+{
+  "tag": "olmo_1b",
+  "supervised_counts": {
+    "self": 11,
+    "unspecialized": 26,
+    "previous-token": 15,
+    "duplicate-token": 4,
+    "first-token": 200
+  },
+  "by_k": {
+    "6": {
+      "per_class": {
+        "duplicate-token": {
+          "recall": 0.5,
+          "precision": 0.05714285714285714,
+          "f1": 0.10256410256410256,
+          "best_cluster": 3,
+          "class_total": 4,
+          "cluster_total": 35
+        },
+        "first-token": {
+          "recall": 0.255,
+          "precision": 0.9622641509433962,
+          "f1": 0.40316205533596844,
+          "best_cluster": 4,
+          "class_total": 200,
+          "cluster_total": 53
+        },
+        "previous-token": {
+          "recall": 0.6666666666666666,
+          "precision": 0.2857142857142857,
+          "f1": 0.4,
+          "best_cluster": 3,
+          "class_total": 15,
+          "cluster_total": 35
+        },
+        "self": {
+          "recall": 0.36363636363636365,
+          "precision": 0.11428571428571428,
+          "f1": 0.17391304347826086,
+          "best_cluster": 3,
+          "class_total": 11,
+          "cluster_total": 35
+        }
+      },
+      "bos_l01_focus": null
+    },
+    "8": {
+      "per_class": {
+        "duplicate-token": {
+          "recall": 0.5,
+          "precision": 0.041666666666666664,
+          "f1": 0.07692307692307693,
+          "best_cluster": 5,
+          "class_total": 4,
+          "cluster_total": 48
+        },
+        "first-token": {
+          "recall": 0.205,
+          "precision": 0.8541666666666666,
+          "f1": 0.33064516129032256,
+          "best_cluster": 5,
+          "class_total": 200,
+          "cluster_total": 48
+        },
+        "previous-token": {
+          "recall": 0.4666666666666667,
+          "precision": 0.23333333333333334,
+          "f1": 0.31111111111111117,
+          "best_cluster": 6,
+          "class_total": 15,
+          "cluster_total": 30
+        },
+        "self": {
+          "recall": 0.45454545454545453,
+          "precision": 0.4166666666666667,
+          "f1": 0.43478260869565216,
+          "best_cluster": 7,
+          "class_total": 11,
+          "cluster_total": 12
+        }
+      },
+      "bos_l01_focus": null
+    },
+    "10": {
+      "per_class": {
+        "duplicate-token": {
+          "recall": 0.75,
+          "precision": 0.057692307692307696,
+          "f1": 0.10714285714285714,
+          "best_cluster": 4,
+          "class_total": 4,
+          "cluster_total": 52
+        },
+        "first-token": {
+          "recall": 0.19,
+          "precision": 0.9047619047619048,
+          "f1": 0.3140495867768595,
+          "best_cluster": 1,
+          "class_total": 200,
+          "cluster_total": 42
+        },
+        "previous-token": {
+          "recall": 0.5333333333333333,
+          "precision": 0.15384615384615385,
+          "f1": 0.23880597014925373,
+          "best_cluster": 4,
+          "class_total": 15,
+          "cluster_total": 52
+        },
+        "self": {
+          "recall": 0.45454545454545453,
+          "precision": 1.0,
+          "f1": 0.625,
+          "best_cluster": 2,
+          "class_total": 11,
+          "cluster_total": 5
+        }
+      },
+      "bos_l01_focus": null
+    },
+    "12": {
+      "per_class": {
+        "duplicate-token": {
+          "recall": 0.75,
+          "precision": 0.08571428571428572,
+          "f1": 0.15384615384615383,
+          "best_cluster": 11,
+          "class_total": 4,
+          "cluster_total": 35
+        },
+        "first-token": {
+          "recall": 0.17,
+          "precision": 0.8947368421052632,
+          "f1": 0.2857142857142857,
+          "best_cluster": 0,
+          "class_total": 200,
+          "cluster_total": 38
+        },
+        "previous-token": {
+          "recall": 0.4666666666666667,
+          "precision": 0.5384615384615384,
+          "f1": 0.5,
+          "best_cluster": 3,
+          "class_total": 15,
+          "cluster_total": 13
+        },
+        "self": {
+          "recall": 0.45454545454545453,
+          "precision": 1.0,
+          "f1": 0.625,
+          "best_cluster": 9,
+          "class_total": 11,
+          "cluster_total": 5
+        }
+      },
+      "bos_l01_focus": null
+    }
+  }
+}

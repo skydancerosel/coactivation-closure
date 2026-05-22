@@ -1,0 +1,324 @@
+{
+  "tag": "olmoe",
+  "all_heads_class_counts": {
+    "unspecialized": 51,
+    "previous-token": 12,
+    "self": 11,
+    "duplicate-token": 4,
+    "first-token": 174,
+    "induction": 4
+  },
+  "extended_metrics_by_k": {
+    "4": {
+      "n_evaluated": 205,
+      "purity": 0.848780487804878,
+      "nmi": 0.1405606358259887,
+      "ari": 0.0496351819651474,
+      "null_ari_mean": -0.00016033344702635826,
+      "null_ari_std": 0.006250070443697124,
+      "null_nmi_mean": 0.03446102711627689,
+      "null_nmi_std": 0.011826187222088816,
+      "ari_z": 7.967192667786646,
+      "nmi_z": 8.971582025315834,
+      "cluster_composition": {
+        "0": {
+          "first-token": 60,
+          "induction": 2
+        },
+        "1": {
+          "duplicate-token": 1,
+          "first-token": 55,
+          "previous-token": 1,
+          "self": 1
+        },
+        "2": {
+          "duplicate-token": 1,
+          "first-token": 27,
+          "previous-token": 10,
+          "self": 9
+        },
+        "3": {
+          "duplicate-token": 2,
+          "first-token": 32,
+          "induction": 2,
+          "previous-token": 1,
+          "self": 1
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 4,
+        "first-token": 174,
+        "induction": 4,
+        "previous-token": 12,
+        "self": 11
+      }
+    },
+    "6": {
+      "n_evaluated": 205,
+      "purity": 0.848780487804878,
+      "nmi": 0.14686685352939138,
+      "ari": 0.02462404002883324,
+      "null_ari_mean": -0.00021187342303670596,
+      "null_ari_std": 0.005489188196144982,
+      "null_nmi_mean": 0.0460839490044874,
+      "null_nmi_std": 0.01225659349490978,
+      "ari_z": 4.524514839792164,
+      "nmi_z": 8.222750029750078,
+      "cluster_composition": {
+        "0": {
+          "duplicate-token": 2,
+          "first-token": 31,
+          "induction": 1,
+          "self": 1
+        },
+        "1": {
+          "duplicate-token": 1,
+          "first-token": 20,
+          "induction": 2,
+          "previous-token": 11,
+          "self": 8
+        },
+        "2": {
+          "duplicate-token": 1,
+          "first-token": 35,
+          "previous-token": 1
+        },
+        "3": {
+          "first-token": 5
+        },
+        "4": {
+          "first-token": 49,
+          "induction": 1,
+          "self": 2
+        },
+        "5": {
+          "first-token": 34
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 4,
+        "first-token": 174,
+        "induction": 4,
+        "previous-token": 12,
+        "self": 11
+      }
+    },
+    "8": {
+      "n_evaluated": 205,
+      "purity": 0.8780487804878049,
+      "nmi": 0.186582259897381,
+      "ari": 0.03817193946343029,
+      "null_ari_mean": -0.0004346107766928539,
+      "null_ari_std": 0.003140935018865607,
+      "null_nmi_mean": 0.056813832787303585,
+      "null_nmi_std": 0.010982458032968372,
+      "ari_z": 12.291419595833103,
+      "nmi_z": 11.81597295619287,
+      "cluster_composition": {
+        "0": {
+          "duplicate-token": 1,
+          "first-token": 25,
+          "induction": 1
+        },
+        "1": {
+          "first-token": 26,
+          "induction": 1,
+          "previous-token": 1,
+          "self": 1
+        },
+        "2": {
+          "duplicate-token": 1,
+          "first-token": 3,
+          "induction": 1,
+          "previous-token": 9,
+          "self": 9
+        },
+        "3": {
+          "first-token": 8
+        },
+        "4": {
+          "first-token": 25,
+          "previous-token": 1,
+          "self": 1
+        },
+        "5": {
+          "first-token": 25,
+          "induction": 1
+        },
+        "6": {
+          "first-token": 29
+        },
+        "7": {
+          "duplicate-token": 2,
+          "first-token": 33,
+          "previous-token": 1
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 4,
+        "first-token": 174,
+        "induction": 4,
+        "previous-token": 12,
+        "self": 11
+      }
+    },
+    "10": {
+      "n_evaluated": 205,
+      "purity": 0.8878048780487805,
+      "nmi": 0.20441377996876553,
+      "ari": 0.03292782019778536,
+      "null_ari_mean": 0.0001292532719275535,
+      "null_ari_std": 0.0032921178329419765,
+      "null_nmi_mean": 0.0656584289021649,
+      "null_nmi_std": 0.00967264087685017,
+      "ari_z": 9.96275607077758,
+      "nmi_z": 14.345136228378756,
+      "cluster_composition": {
+        "0": {
+          "duplicate-token": 1,
+          "first-token": 15,
+          "induction": 1
+        },
+        "1": {
+          "duplicate-token": 1,
+          "first-token": 2,
+          "induction": 1,
+          "previous-token": 10,
+          "self": 9
+        },
+        "2": {
+          "first-token": 18
+        },
+        "3": {
+          "duplicate-token": 1,
+          "first-token": 25,
+          "induction": 1
+        },
+        "4": {
+          "first-token": 27
+        },
+        "5": {
+          "first-token": 24,
+          "previous-token": 1,
+          "self": 2
+        },
+        "6": {
+          "first-token": 18,
+          "induction": 1
+        },
+        "7": {
+          "duplicate-token": 1,
+          "first-token": 11,
+          "previous-token": 1
+        },
+        "8": {
+          "first-token": 26
+        },
+        "9": {
+          "first-token": 8
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 4,
+        "first-token": 174,
+        "induction": 4,
+        "previous-token": 12,
+        "self": 11
+      }
+    },
+    "12": {
+      "n_evaluated": 205,
+      "purity": 0.8878048780487805,
+      "nmi": 0.17849967433059494,
+      "ari": 0.024341507123623794,
+      "null_ari_mean": -0.00013056794306508292,
+      "null_ari_std": 0.0038302051357839138,
+      "null_nmi_mean": 0.07232896682799027,
+      "null_nmi_std": 0.009977359102312787,
+      "ari_z": 6.389233526438857,
+      "nmi_z": 10.64116329921351,
+      "cluster_composition": {
+        "0": {
+          "first-token": 7
+        },
+        "1": {
+          "duplicate-token": 1,
+          "first-token": 17,
+          "induction": 2,
+          "previous-token": 1,
+          "self": 1
+        },
+        "2": {
+          "first-token": 22
+        },
+        "3": {
+          "duplicate-token": 1,
+          "first-token": 11,
+          "previous-token": 1
+        },
+        "4": {
+          "first-token": 11,
+          "previous-token": 1,
+          "self": 2
+        },
+        "5": {
+          "first-token": 10
+        },
+        "6": {
+          "first-token": 18,
+          "induction": 1
+        },
+        "7": {
+          "duplicate-token": 1,
+          "previous-token": 8,
+          "self": 6
+        },
+        "8": {
+          "first-token": 29,
+          "self": 2
+        },
+        "9": {
+          "first-token": 17
+        },
+        "10": {
+          "duplicate-token": 1,
+          "first-token": 21,
+          "induction": 1
+        },
+        "11": {
+          "first-token": 11,
+          "previous-token": 1
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 4,
+        "first-token": 174,
+        "induction": 4,
+        "previous-token": 12,
+        "self": 11
+      }
+    }
+  },
+  "layer_locality": {
+    "within_layer_frac": 0.11259473728813421,
+    "by_layer_distance": [
+      359.4643843989056,
+      450.818718197749,
+      362.6295313868379,
+      304.2101933185402,
+      274.3839157257373,
+      246.24183636009124,
+      214.9635270024318,
+      193.51435146282856,
+      176.88541808128582,
+      151.02328477388656,
+      130.9189697343395,
+      108.50212767103307,
+      89.5193920628409,
+      69.22575546573472,
+      40.228612920882604,
+      20.0204776383334
+    ],
+    "total_abs_J": 3192.5504962014575
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "tag": "pythia_1b",
+  "all_heads_class_counts": {
+    "previous-token": 14,
+    "self": 7,
+    "unspecialized": 34,
+    "duplicate-token": 2,
+    "first-token": 69,
+    "induction": 2
+  },
+  "extended_metrics_by_k": {
+    "4": {
+      "n_evaluated": 94,
+      "purity": 0.8085106382978723,
+      "nmi": 0.23569448683993005,
+      "ari": 0.11516509431172957,
+      "null_ari_mean": -0.0018364443372160272,
+      "null_ari_std": 0.01293793831541092,
+      "null_nmi_mean": 0.06385416916981701,
+      "null_nmi_std": 0.018815362895382572,
+      "ari_z": 9.043290808519327,
+      "nmi_z": 9.1329791843815,
+      "cluster_composition": {
+        "0": {
+          "duplicate-token": 2,
+          "first-token": 26,
+          "induction": 1,
+          "previous-token": 1,
+          "self": 1
+        },
+        "1": {
+          "first-token": 19,
+          "previous-token": 2,
+          "self": 3
+        },
+        "2": {
+          "first-token": 4,
+          "previous-token": 11,
+          "self": 3
+        },
+        "3": {
+          "first-token": 20,
+          "induction": 1
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 2,
+        "first-token": 69,
+        "induction": 2,
+        "previous-token": 14,
+        "self": 7
+      }
+    },
+    "6": {
+      "n_evaluated": 94,
+      "purity": 0.8085106382978723,
+      "nmi": 0.2356311748875852,
+      "ari": 0.06674061460107172,
+      "null_ari_mean": 0.0001858158835302676,
+      "null_ari_std": 0.007565992086397799,
+      "null_nmi_mean": 0.08636056746376543,
+      "null_nmi_std": 0.021223842231165038,
+      "ari_z": 8.796572605090905,
+      "nmi_z": 7.0331566640007885,
+      "cluster_composition": {
+        "0": {
+          "first-token": 11,
+          "previous-token": 2
+        },
+        "1": {
+          "first-token": 10,
+          "previous-token": 1,
+          "self": 3
+        },
+        "2": {
+          "first-token": 14,
+          "induction": 1,
+          "previous-token": 1
+        },
+        "3": {
+          "duplicate-token": 2,
+          "first-token": 15,
+          "induction": 1
+        },
+        "4": {
+          "first-token": 3,
+          "previous-token": 10,
+          "self": 3
+        },
+        "5": {
+          "first-token": 16,
+          "self": 1
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 2,
+        "first-token": 69,
+        "induction": 2,
+        "previous-token": 14,
+        "self": 7
+      }
+    },
+    "8": {
+      "n_evaluated": 94,
+      "purity": 0.776595744680851,
+      "nmi": 0.1884885893697163,
+      "ari": 0.026659675774373552,
+      "null_ari_mean": 0.0012791148242560966,
+      "null_ari_std": 0.012023011966680102,
+      "null_nmi_mean": 0.10427517066538915,
+      "null_nmi_std": 0.01946756932580909,
+      "ari_z": 2.1109985601324954,
+      "nmi_z": 4.32583119622856,
+      "cluster_composition": {
+        "0": {
+          "first-token": 5,
+          "previous-token": 9,
+          "self": 3
+        },
+        "1": {
+          "first-token": 8
+        },
+        "2": {
+          "first-token": 11,
+          "induction": 1,
+          "self": 1
+        },
+        "3": {
+          "first-token": 11,
+          "previous-token": 1,
+          "self": 1
+        },
+        "4": {
+          "duplicate-token": 1,
+          "first-token": 6,
+          "induction": 1
+        },
+        "5": {
+          "first-token": 5,
+          "previous-token": 2
+        },
+        "6": {
+          "first-token": 7,
+          "self": 2
+        },
+        "7": {
+          "duplicate-token": 1,
+          "first-token": 16,
+          "previous-token": 2
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 2,
+        "first-token": 69,
+        "induction": 2,
+        "previous-token": 14,
+        "self": 7
+      }
+    },
+    "10": {
+      "n_evaluated": 94,
+      "purity": 0.8085106382978723,
+      "nmi": 0.23519707194090878,
+      "ari": 0.03456906433024008,
+      "null_ari_mean": 0.00067291312484209,
+      "null_ari_std": 0.007513942202337281,
+      "null_nmi_mean": 0.11685928607668558,
+      "null_nmi_std": 0.018448039307406513,
+      "ari_z": 4.511100869907447,
+      "nmi_z": 6.414653822680927,
+      "cluster_composition": {
+        "0": {
+          "duplicate-token": 1,
+          "first-token": 9,
+          "previous-token": 1,
+          "self": 1
+        },
+        "1": {
+          "previous-token": 1,
+          "self": 2
+        },
+        "2": {
+          "first-token": 10
+        },
+        "3": {
+          "first-token": 9,
+          "previous-token": 2
+        },
+        "4": {
+          "first-token": 10,
+          "induction": 1
+        },
+        "5": {
+          "first-token": 4,
+          "previous-token": 9,
+          "self": 1
+        },
+        "6": {
+          "first-token": 8,
+          "previous-token": 1,
+          "self": 3
+        },
+        "7": {
+          "duplicate-token": 1,
+          "first-token": 4,
+          "induction": 1
+        },
+        "8": {
+          "first-token": 7
+        },
+        "9": {
+          "first-token": 8
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 2,
+        "first-token": 69,
+        "induction": 2,
+        "previous-token": 14,
+        "self": 7
+      }
+    },
+    "12": {
+      "n_evaluated": 94,
+      "purity": 0.8191489361702128,
+      "nmi": 0.2643800948885189,
+      "ari": 0.04564888156219426,
+      "null_ari_mean": 0.0002787717957996598,
+      "null_ari_std": 0.011431589086377312,
+      "null_nmi_mean": 0.1282739311409025,
+      "null_nmi_std": 0.018524847057098677,
+      "ari_z": 3.968836652855273,
+      "nmi_z": 7.347221994767338,
+      "cluster_composition": {
+        "0": {
+          "first-token": 5,
+          "previous-token": 1,
+          "self": 2
+        },
+        "1": {
+          "first-token": 12,
+          "self": 3
+        },
+        "2": {
+          "duplicate-token": 1,
+          "first-token": 2,
+          "induction": 1
+        },
+        "3": {
+          "previous-token": 2,
+          "self": 2
+        },
+        "4": {
+          "duplicate-token": 1,
+          "first-token": 7
+        },
+        "5": {
+          "first-token": 3,
+          "previous-token": 9
+        },
+        "6": {
+          "first-token": 3
+        },
+        "7": {
+          "first-token": 5
+        },
+        "8": {
+          "first-token": 14,
+          "induction": 1,
+          "previous-token": 1
+        },
+        "9": {
+          "first-token": 7
+        },
+        "10": {
+          "first-token": 6
+        },
+        "11": {
+          "first-token": 5,
+          "previous-token": 1
+        }
+      },
+      "class_counts": {
+        "duplicate-token": 2,
+        "first-token": 69,
+        "induction": 2,
+        "previous-token": 14,
+        "self": 7
+      }
+    }
+  },
+  "layer_locality": {
+    "within_layer_frac": 0.09482955932723089,
+    "by_layer_distance": [
+      64.39414846370968,
+      104.46488602397352,
+      88.04107797224665,
+      68.72723059060652,
+      60.27476348526461,
+      53.559275740809376,
+      45.657334948640035,
+      41.84719591236477,
+      37.717778787607806,
+      28.859067035407502,
+      24.588711702622515,
+      21.119380853949668,
+      15.896399950082625,
+      12.79757501874884,
+      7.6795727603851,
+      3.4270370415326434
+    ],
+    "total_abs_J": 679.0514362879519
+  }
+}
