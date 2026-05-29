@@ -1,5 +1,6 @@
 # Large attention tensors — regenerate by running the pipeline
 results/**/attn_at_query.npy
+results/**/*_routes.npy
 
 # Python
 __pycache__/
@@ -14,10 +15,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# Local paper artifacts (kept out of the public repo)
-*.tex
-*.pdf
-!figures/*.pdf
+# LaTeX build artifacts (the compiled draft.pdf IS tracked; build junk is not)
 *.aux
 *.toc
 *.out

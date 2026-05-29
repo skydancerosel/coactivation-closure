@@ -1,0 +1,82 @@
+{
+  "step5000-tokens20B": {
+    "n": 2000,
+    "loss": 6.445699658810443,
+    "loss_std": 4.551376497258651,
+    "acc_top1": 0.194,
+    "mean_logit_target": 8.628128441810608,
+    "elapsed_seconds": 935.8450770378113
+  },
+  "step10000-tokens41B": {
+    "n": 2000,
+    "loss": 6.650398517635415,
+    "loss_std": 4.723119437554926,
+    "acc_top1": 0.1895,
+    "mean_logit_target": 8.707024917602538,
+    "elapsed_seconds": 846.5612001419067
+  },
+  "step25000-tokens104B": {
+    "n": 2000,
+    "loss": 6.851969300826542,
+    "loss_std": 4.837436501970308,
+    "acc_top1": 0.178,
+    "mean_logit_target": 8.535685050010681,
+    "elapsed_seconds": 763.398854970932
+  },
+  "step50000-tokens209B": {
+    "n": 2000,
+    "loss": 6.93546533935324,
+    "loss_std": 4.88481287900993,
+    "acc_top1": 0.1805,
+    "mean_logit_target": 8.277105808258057,
+    "elapsed_seconds": 860.5022599697113
+  },
+  "step100000-tokens419B": {
+    "n": 2000,
+    "loss": 6.99267262782001,
+    "loss_std": 4.957682373051458,
+    "acc_top1": 0.1825,
+    "mean_logit_target": 8.004704030036926,
+    "elapsed_seconds": 774.306138753891
+  },
+  "step200000-tokens838B": {
+    "n": 2000,
+    "loss": 6.975043964975567,
+    "loss_std": 4.945193796792301,
+    "acc_top1": 0.183,
+    "mean_logit_target": 7.88940013885498,
+    "elapsed_seconds": 857.2412188053131
+  },
+  "step400000-tokens1677B": {
+    "n": 2000,
+    "loss": 7.070426111003266,
+    "loss_std": 4.998928404591838,
+    "acc_top1": 0.177,
+    "mean_logit_target": 7.946893353462219,
+    "elapsed_seconds": 961.1457901000977
+  },
+  "step600000-tokens2516B": {
+    "n": 2000,
+    "loss": 7.106699770959264,
+    "loss_std": 5.046370502215953,
+    "acc_top1": 0.176,
+    "mean_logit_target": 8.233726694107055,
+    "elapsed_seconds": 897.8078730106354
+  },
+  "step800000-tokens3355B": {
+    "n": 2000,
+    "loss": 7.159035146445687,
+    "loss_std": 5.123495945642049,
+    "acc_top1": 0.183,
+    "mean_logit_target": 8.526039291381837,
+    "elapsed_seconds": 797.7472860813141
+  },
+  "step1220000-tokens5117B": {
+    "n": 2000,
+    "loss": 7.254705507706468,
+    "loss_std": 5.185055125567552,
+    "acc_top1": 0.181,
+    "mean_logit_target": 9.119812019348144,
+    "elapsed_seconds": 949.0858898162842
+  }
+}
