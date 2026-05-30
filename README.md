@@ -2,8 +2,7 @@
 
 *Co-activation proposes, ablation disposes.* Closure tests in dense and MoE transformers at 1B scale.
 
-📄 The full draft is in [`draft.pdf`](draft.pdf), but this README is meant to be
-self-contained — everything below is the complete account.
+This README is the complete account — everything is below, no separate paper needed.
 
 ---
 
@@ -334,7 +333,6 @@ HuggingFace `transformers`, scikit-learn, numpy, matplotlib.
 ## Repository layout
 
 ```
-draft.pdf / draft.tex   the working draft (compile with figures/ at repo root)
 developmental_notes.md  companion notes for the training-axis results
 pipeline/               Ising discovery, route conditioning, null control
 closure/                candidate selection + closure tests per (model, distribution)
